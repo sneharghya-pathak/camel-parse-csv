@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+camel:
+  springboot:
+    shutdownTimeout: 2
+    main-run-controller: true
+  
+---
+
+spring:
+  profiles: dev
